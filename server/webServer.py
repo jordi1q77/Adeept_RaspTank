@@ -29,7 +29,6 @@ OLED_connection = 1
 try:
     import OLED
     screen = OLED.OLED_ctrl()
-    screen.rotation(180)# ojo, prueba de cambio de rotación de la càmara. Se veia al revés
     screen.start()
     screen.screen_show(1, 'ADEEPT.COM')
 except:
