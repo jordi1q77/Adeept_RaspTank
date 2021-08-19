@@ -14,7 +14,6 @@ import threading
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
 camera = Camera()
-camera.rotation(180)# ojo, prueba de cambio de rotación de la càmara. Se veia al revés
     
 
 def gen(camera):
